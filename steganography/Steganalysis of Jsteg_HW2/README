@@ -1,4 +1,7 @@
 HW2 based on the JPEG Toolbox
+Run Jsteg_det.m to test if a image is embeded by Jsteg
+
+
 Matlab JPEG Toolbox
 ===================
 This distribution contains routines for manipulating files formatted
