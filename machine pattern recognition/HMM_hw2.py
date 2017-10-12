@@ -43,7 +43,7 @@ class hmm(object):
         def r():                                                    # break symmetry
             return np.random.rand()*0.01
         a = np.array([[0, 0.25+r(), 0.25+r(), 0.25+r(), 0.25+r()],  # any state won't go to initial state
-                    [0, 0.25+r(), 0.25+r(), 0.25+r(), 0.25+r()],    # final state will only go to final state
+                    [0, 0.25+r(), 0.25+r(), 0.25+r(), 0.25+r()],    # every state will only go to final state
                     [0, 0.25+r(), 0.25+r(), 0.25+r(), 0.25+r()],
                     [0, 0.25+r(), 0.25+r(), 0.25+r(), 0.25+r()],
                     [0, 0, 0, 0, 1]])
